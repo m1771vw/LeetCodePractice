@@ -1,3 +1,3 @@
-const reverseInteger = require('./Problems/ReverseInteger')
+const palindromeNumber = require('./Problems/PalindromeNumber')
 
-reverseInteger(-9000);
+console.log(palindromeNumber(121));
