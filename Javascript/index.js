@@ -1,3 +1,5 @@
-const removeElement = require('./Problems/RemoveElement');
+const BST = require('./Problems/MaxDepthBST');
 
-console.log(removeElement([0,0,0,1,1,1,2,2,2,3,3,4], 0));
+let BST1 = new BST();
+BST1.insert(5);
+console.log(BST1.inorder(5));
