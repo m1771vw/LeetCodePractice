@@ -1,5 +1,3 @@
-const BST = require('./Problems/MaxDepthBST');
+const maxProfit = require('./Problems/BestBuyAndSellStock');
 
-let BST1 = new BST();
-BST1.insert(5);
-console.log(BST1.inorder(5));
+console.log(maxProfit([7,1]));
