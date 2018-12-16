@@ -4,7 +4,8 @@
  * Questions:
  * - Is the array sorted?
  * - Will there be negative numbers?
- * 
+ * - Will there be floats?
+ * - Will the array always have numbers?
  */
 
  /**
