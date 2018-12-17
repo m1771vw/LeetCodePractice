@@ -20,7 +20,7 @@ const tidyNumber = n => {
             console.log("Comparing: ", n[i], n[i+1])
             let subChar = subtractChar(n[i]);
             console.log("Sub Char",subChar);
-            tidy += n.substring(0, i-1);
+            tidy += n.substring(0, i);
             tidy += subChar;
             for(let j = i + 1; j < n.length; j++) {
                 tidy += "9";
@@ -28,7 +28,7 @@ const tidyNumber = n => {
         break;
         }
     }
-    return tidy;
+    return parseInt(tidy); 
 
 }
 
