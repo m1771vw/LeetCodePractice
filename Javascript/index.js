@@ -1,3 +1,4 @@
-const maxProfit = require('./Problems/BestBuyAndSellStock');
+const tidyNumber = require('./Problems/TidyNumbers');
 
-console.log(maxProfit([7,1]));
+
+console.log(tidyNumber(11333445538));
