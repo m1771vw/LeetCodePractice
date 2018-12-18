@@ -17,9 +17,9 @@ const tidyNumber = n => {
     n = n.toString();
     for(let i = 0; i < n.length; i++) {
         if(n[i] > n[i+1]) {
-            console.log("Comparing: ", n[i], n[i+1])
+            // console.log("Comparing: ", n[i], n[i+1])
             let subChar = subtractChar(n[i]);
-            console.log("Sub Char",subChar);
+            // console.log("Sub Char",subChar);
             tidy += n.substring(0, i);
             tidy += subChar;
             for(let j = i + 1; j < n.length; j++) {

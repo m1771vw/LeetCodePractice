@@ -1,4 +1,3 @@
-const tidyNumber = require('./Problems/TidyNumbers');
+const roman = require("./Problems/RomanToInteger");
 
-
-console.log(tidyNumber(101));
+console.log(roman("MCMXCIV"));
