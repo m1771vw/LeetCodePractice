@@ -1,3 +1,3 @@
-const validP = require("./Problems/ValidParenthesis")
+const testing = require("./Problems/LengthOfLastWord")
 
-console.log(validP("(]"));
+console.log(testing("Hello World"));

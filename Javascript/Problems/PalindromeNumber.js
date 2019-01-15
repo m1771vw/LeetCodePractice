@@ -21,3 +21,18 @@ const palindromeNumber = (num) => {
 }
 
 module.exports = palindromeNumber;
+
+// 123
+const palindromeNumber2 = (num) => {
+    var pNum = 0;
+    if(num < 0) {
+        return false;
+    }
+    while(pNum < num) {
+
+        var mod = num % 10; // 3
+        num = Math.floor(num/10); // 12
+        pNum = pNum * 10 + mod ;
+    }
+
+}

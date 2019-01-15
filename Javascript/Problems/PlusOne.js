@@ -35,3 +35,21 @@ const plusOne = digits => {
 }
 
 module.exports = plusOne;
+
+
+// [ 1, 2, 9]
+const plusOne2 = arr => {
+    var l = arr.length - 1;
+    arr[l] += 1;
+    var carry = arr[l] / 10;
+    arr[l] = arr[l]%10;
+    for(let i = 0; i < l+1; i++){
+        arr[l] += 1;
+        carry = arr[l] / 10;
+        arr[l] = arr[l]%10;
+    }
+    if(carry == 1) {
+        arr.unshift(1);
+    }
+
+}
