@@ -1,3 +1,3 @@
-const palindromeNumber = require('./Problems/PalindromeNumber')
+const testing = require("./Problems/LengthOfLastWord")
 
-console.log(palindromeNumber(121));
+console.log(testing("Hello World"));
