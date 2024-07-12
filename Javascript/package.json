@@ -1,16 +1,17 @@
 {
-  "name": "Javascript",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "jest": "^23.6.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "jest"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "Javascript",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"jest": "^23.6.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "jest",
+		"test:watch": "jest --watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
 }
